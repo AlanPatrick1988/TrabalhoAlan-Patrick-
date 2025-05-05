@@ -1,0 +1,34 @@
+ ```html
+   <!-- Código HTML para o menu -->
+   <nav>
+       <ul>
+           <li><a href="index.html">Sou casado, tenho 37 anos e sou pai de um filho especial que é a luz da minha vida. Apaixonado por música, gosto de tocar instrumentos 
+de corda nas horas vagas. Trabalho como técnico em segurança numa mineradora, com muito foco e responsabilidade, 
+sempre zelando pela vida e bem-estar de todos. Cada parte da minha vida tem um valor único e me motiva a ser melhor todos os dias</a></li>
+           <li><a href="formacao.html">Sou tecnico em segurança do trabalho</a></li>
+           <li><a href="portfolio.html">trabalho tambem com portfólio digital reúne cursos, materiais didáticos, indicações e links de afiliado. Tudo organizado em um só lugar, 
+fácil de compartilhar e vender. Com a ajuda do curso de software,
+aprendi a montar e gerenciar tudo com autonomia e profissionalismo, o
+que aumentou muito minhas vendas online e minha presença digital.</a></li>
+           <li><a href="contato.html">alantec.geraes@hotmail.com</a></li>
+       </ul>
+   </nav>
+   ```
+
+   ```css
+   /* Código CSS para estilizar o menu */
+   nav ul {
+       list-style-type: none;
+       padding: 0;
+   }
+
+   nav ul li {
+       display: inline;
+       margin-right: 20px;
+   }
+
+   nav ul li a {
+       text-decoration: none;
+       color: #000;
+   }
+   ```
