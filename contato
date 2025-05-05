@@ -1,0 +1,26 @@
+ ```html
+   <h1>Contato</h1>
+   <form>
+       <label for="nome">Nome:</label><br>
+       <input type="text" id="nome" name="nome"><br>
+       <label for="email">Email:</label><br>
+       <input type="email" id="email" name="email"><br>
+       <label for="mensagem">Mensagem:</label><br>
+       <textarea id="mensagem" name="mensagem"></textarea><br>
+       <input type="submit" value="Enviar">
+   </form>
+   ```
+
+   ```css
+   /* Código CSS para estilizar o formulário */
+   form {
+       width: 400px;
+       margin: 0 auto;
+   }
+
+   label, input, textarea {
+       display: block;
+       width: 100%;
+       margin-bottom: 10px;
+   }
+   ```
